@@ -13,7 +13,11 @@ export default function Header(){
                 </div>
             </div>
             <div className=" mt-20 mr-12 ">
-                <div className="w-[400px] h-[430px] bg-[#191F25] rounded-md border-t-[15px] border-[#272e36] shadow-lg"></div>
+                <div className="w-[400px] h-[380px] bg-[#191F25] rounded-md border-t-[15px] border-[#272e36] shadow-lg px-4">
+                    <p className="w-full bg-[#272e36] h-12 mt-6 rounded-md text-[#9095A1] text-center pt-3 font-bold">Multiples diseños</p>
+                    <p className="w-full bg-[#272e36] h-12 mt-6 rounded-md text-[#9095A1] text-center pt-3 font-bold">Optimizados para filtros</p><p className="w-full bg-[#272e36] h-12 mt-6 rounded-md text-[#9095A1] text-center pt-3 font-bold">Persistencia de datos</p><p className="w-full bg-[#272e36] h-12 mt-6 rounded-md text-[#9095A1] text-center pt-3 font-bold">Exportable a Word y PDF</p>
+                    <p className="text-sm text-center mt-5 text-[#9095A1]">Totalmente gratuito para fomentar tu desarrollo profesional.</p>
+                </div>
                 <button className="w-full bg-white mt-3 h-10 rounded-md text-[#191F25] font-bold text-lg">Crear CV</button>
             </div>
             <div className="decoration-header"></div>
